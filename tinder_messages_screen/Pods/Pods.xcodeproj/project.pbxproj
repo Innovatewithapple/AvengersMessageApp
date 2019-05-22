@@ -1,0 +1,655 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CA8E5F5D870151DE40E714F741D258C /* CircularImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD429CDEF5991EA4921D44F95DD40A6 /* CircularImageView.swift */; };
+		1D59A472D07D4B570A5C58AFD3212FAA /* Pods-tinder_messages_screen-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6DDE7B350CB4DAC08FB13BCD904D965 /* Pods-tinder_messages_screen-dummy.m */; };
+		27CBFC0984033D8899300FB0F2B08F08 /* AspectFitImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D325229EAE38D6ED55F76E8FF7AF5E7C /* AspectFitImageView.swift */; };
+		2F884B96509B1FEBDE860DA81AD38D34 /* LBTAListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECEEC0A3ADE7D112B6FD8D72AFCE9EB5 /* LBTAListController.swift */; };
+		4377412B35F26DB973EB8F1748647B43 /* UITextField+Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF9F5B6E9980E6E849945CF16561204 /* UITextField+Tools.swift */; };
+		48B0538DA3AAE7BFF3596A0C20422642 /* LBTATools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E21DFCF66CA92C7839D83F3A28182BB2 /* LBTATools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C5FE085ADECFF96BDC156A1A2E7CF66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		75A2049ABD75E9FE31C793C67E20FCD9 /* UIView+Stacking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E311DC022AE2F5D85034297D75FF23 /* UIView+Stacking.swift */; };
+		7827EA55C34C14D9E6748350317A6B4E /* LBTAListHeaderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377724752770F986FE345F141398A2F0 /* LBTAListHeaderController.swift */; };
+		8677F644DC6B504C8AC25123737BE85C /* IndentedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA11EF3982A82C7BB938074CF61B3B9 /* IndentedTextField.swift */; };
+		8B5E62A1D5B670FEDB3BCB6971D970D9 /* UIView+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8F40D220FEEF798861A5E07C0A5B51 /* UIView+Layout.swift */; };
+		BC46D5BE7419CFC9452D81E2ECC743E9 /* AnchoredConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = D353DF133C6F4E0970EDA847155ACBBC /* AnchoredConstraints.swift */; };
+		C2502C2D10B99044680CDD2501B3D45D /* LBTATools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF111969E3303127CC88D472B39BA320 /* LBTATools-dummy.m */; };
+		C927AB78F3EF2F2B12ADC45E8A00B32D /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8678EEF8A387139FAD82129EF6EE83D /* UILabel.swift */; };
+		D063DE0E2F39FC1074425D77228F12C8 /* UIColor+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F0B7998BB5AF23B1D1A13E2D238263 /* UIColor+Helpers.swift */; };
+		D651285D4B0C8A7AF8383A65B3FDBFF1 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE3D481338945E7EFA1F19F3993BFF8 /* UIButton.swift */; };
+		DF658A51809FCBB36C8DEF8DD4A1FD12 /* UIStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBB9779D7AB684356B4916231AB0134 /* UIStackView.swift */; };
+		E9DF14E44BB7B5BB2D653D2F69E0D564 /* LBTAListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF88E0D6A3787D0C07CB88D02D5196A /* LBTAListCell.swift */; };
+		F34B7FE4241F8BB50EF08941E39ACFCD /* Pods-tinder_messages_screen-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DA0AC822D5B814A311ECEB515983741 /* Pods-tinder_messages_screen-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5E3897F3B4F1482E1F1749E4AB886D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E8F6D48289F280AB48CFDDC58BBC17A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A09ABC9A94B3EF3B951A847D2E82EF7A;
+			remoteInfo = LBTATools;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0397AE268AA4AAD9E4B7E982C043BFD8 /* LBTATools.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LBTATools.xcconfig; sourceTree = "<group>"; };
+		10C9BC1C04F71439C0F225D9A44055ED /* Pods-tinder_messages_screen-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tinder_messages_screen-frameworks.sh"; sourceTree = "<group>"; };
+		12C262D01BC580910FDCEF53E8F291E7 /* LBTATools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LBTATools.modulemap; sourceTree = "<group>"; };
+		2CBB9779D7AB684356B4916231AB0134 /* UIStackView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIStackView.swift; path = Source/Extensions/UIStackView.swift; sourceTree = "<group>"; };
+		2F6930599BC0084F024F6F2D2CAF9986 /* Pods-tinder_messages_screen-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-tinder_messages_screen-Info.plist"; sourceTree = "<group>"; };
+		377724752770F986FE345F141398A2F0 /* LBTAListHeaderController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LBTAListHeaderController.swift; path = Source/ListController/LBTAListHeaderController.swift; sourceTree = "<group>"; };
+		3B5DE97BBBD8D887E94FFBDF75E5EEB5 /* Pods-tinder_messages_screen-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-tinder_messages_screen-acknowledgements.plist"; sourceTree = "<group>"; };
+		46612B6C939516B73D5E4B82A5D3875C /* LBTATools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LBTATools-prefix.pch"; sourceTree = "<group>"; };
+		4B40972D6CCC53830130AC07707B1898 /* LBTATools-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LBTATools-Info.plist"; sourceTree = "<group>"; };
+		4FB30A89AA0F455D5A75CF91BFB232B0 /* Pods-tinder_messages_screen-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-tinder_messages_screen-acknowledgements.markdown"; sourceTree = "<group>"; };
+		55E311DC022AE2F5D85034297D75FF23 /* UIView+Stacking.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Stacking.swift"; path = "Source/Extensions/UIView+Stacking.swift"; sourceTree = "<group>"; };
+		56FC93E39AB6ABDE402AF1B3C83A3B64 /* Pods-tinder_messages_screen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tinder_messages_screen.release.xcconfig"; sourceTree = "<group>"; };
+		5CD429CDEF5991EA4921D44F95DD40A6 /* CircularImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircularImageView.swift; path = Source/UIKitSubclasses/CircularImageView.swift; sourceTree = "<group>"; };
+		67F0B7998BB5AF23B1D1A13E2D238263 /* UIColor+Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Helpers.swift"; path = "Source/UIColor+Helpers.swift"; sourceTree = "<group>"; };
+		6DA0AC822D5B814A311ECEB515983741 /* Pods-tinder_messages_screen-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-tinder_messages_screen-umbrella.h"; sourceTree = "<group>"; };
+		7BA11EF3982A82C7BB938074CF61B3B9 /* IndentedTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IndentedTextField.swift; path = Source/Extensions/IndentedTextField.swift; sourceTree = "<group>"; };
+		87CF81BDB9CD232008743FEE53AED6A9 /* Pods_tinder_messages_screen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_tinder_messages_screen.framework; path = "Pods-tinder_messages_screen.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AA58B9262D6419210D1C921C7FFADEAC /* Pods-tinder_messages_screen.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-tinder_messages_screen.modulemap"; sourceTree = "<group>"; };
+		ACF9F5B6E9980E6E849945CF16561204 /* UITextField+Tools.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextField+Tools.swift"; path = "Source/Extensions/UITextField+Tools.swift"; sourceTree = "<group>"; };
+		B8678EEF8A387139FAD82129EF6EE83D /* UILabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UILabel.swift; path = Source/Extensions/UILabel.swift; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CF111969E3303127CC88D472B39BA320 /* LBTATools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LBTATools-dummy.m"; sourceTree = "<group>"; };
+		CFE3D481338945E7EFA1F19F3993BFF8 /* UIButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIButton.swift; path = Source/Extensions/UIButton.swift; sourceTree = "<group>"; };
+		D325229EAE38D6ED55F76E8FF7AF5E7C /* AspectFitImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AspectFitImageView.swift; path = Source/Extensions/AspectFitImageView.swift; sourceTree = "<group>"; };
+		D353DF133C6F4E0970EDA847155ACBBC /* AnchoredConstraints.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnchoredConstraints.swift; path = Source/AnchoredConstraints.swift; sourceTree = "<group>"; };
+		DEF88E0D6A3787D0C07CB88D02D5196A /* LBTAListCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LBTAListCell.swift; path = Source/ListController/LBTAListCell.swift; sourceTree = "<group>"; };
+		E11966E8CD97EF2267984386783E1758 /* Pods-tinder_messages_screen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tinder_messages_screen.debug.xcconfig"; sourceTree = "<group>"; };
+		E21DFCF66CA92C7839D83F3A28182BB2 /* LBTATools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LBTATools-umbrella.h"; sourceTree = "<group>"; };
+		ECEEC0A3ADE7D112B6FD8D72AFCE9EB5 /* LBTAListController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LBTAListController.swift; path = Source/ListController/LBTAListController.swift; sourceTree = "<group>"; };
+		ED8F40D220FEEF798861A5E07C0A5B51 /* UIView+Layout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Layout.swift"; path = "Source/Extensions/UIView+Layout.swift"; sourceTree = "<group>"; };
+		F09F8498A04522BC0F89BDC4495B7DFE /* LBTATools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LBTATools.framework; path = LBTATools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6DDE7B350CB4DAC08FB13BCD904D965 /* Pods-tinder_messages_screen-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-tinder_messages_screen-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A76E61B9E47DE128A2B502827394563 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5E3897F3B4F1482E1F1749E4AB886D2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C4D938A0BB9FBB4CA877EC49272B4B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C5FE085ADECFF96BDC156A1A2E7CF66 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10DE02871026F5416216C6F64CCF3988 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F09F8498A04522BC0F89BDC4495B7DFE /* LBTATools.framework */,
+				87CF81BDB9CD232008743FEE53AED6A9 /* Pods_tinder_messages_screen.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46D011DF4E56658A28F8BECABDCF8F04 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9DA82EC39209A71C73668AF7B9ED86D1 /* LBTATools */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9DA82EC39209A71C73668AF7B9ED86D1 /* LBTATools */ = {
+			isa = PBXGroup;
+			children = (
+				D353DF133C6F4E0970EDA847155ACBBC /* AnchoredConstraints.swift */,
+				D325229EAE38D6ED55F76E8FF7AF5E7C /* AspectFitImageView.swift */,
+				5CD429CDEF5991EA4921D44F95DD40A6 /* CircularImageView.swift */,
+				7BA11EF3982A82C7BB938074CF61B3B9 /* IndentedTextField.swift */,
+				DEF88E0D6A3787D0C07CB88D02D5196A /* LBTAListCell.swift */,
+				ECEEC0A3ADE7D112B6FD8D72AFCE9EB5 /* LBTAListController.swift */,
+				377724752770F986FE345F141398A2F0 /* LBTAListHeaderController.swift */,
+				CFE3D481338945E7EFA1F19F3993BFF8 /* UIButton.swift */,
+				67F0B7998BB5AF23B1D1A13E2D238263 /* UIColor+Helpers.swift */,
+				B8678EEF8A387139FAD82129EF6EE83D /* UILabel.swift */,
+				2CBB9779D7AB684356B4916231AB0134 /* UIStackView.swift */,
+				ACF9F5B6E9980E6E849945CF16561204 /* UITextField+Tools.swift */,
+				ED8F40D220FEEF798861A5E07C0A5B51 /* UIView+Layout.swift */,
+				55E311DC022AE2F5D85034297D75FF23 /* UIView+Stacking.swift */,
+				A870E599BDF63D1202D747C21557DB29 /* Support Files */,
+			);
+			name = LBTATools;
+			path = LBTATools;
+			sourceTree = "<group>";
+		};
+		A870E599BDF63D1202D747C21557DB29 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				12C262D01BC580910FDCEF53E8F291E7 /* LBTATools.modulemap */,
+				0397AE268AA4AAD9E4B7E982C043BFD8 /* LBTATools.xcconfig */,
+				CF111969E3303127CC88D472B39BA320 /* LBTATools-dummy.m */,
+				4B40972D6CCC53830130AC07707B1898 /* LBTATools-Info.plist */,
+				46612B6C939516B73D5E4B82A5D3875C /* LBTATools-prefix.pch */,
+				E21DFCF66CA92C7839D83F3A28182BB2 /* LBTATools-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LBTATools";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				46D011DF4E56658A28F8BECABDCF8F04 /* Pods */,
+				10DE02871026F5416216C6F64CCF3988 /* Products */,
+				DBC06DC86A3C61AF2353DEABD72E0C6D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA7CB04B2FEF846BD316A05A7F2838B1 /* Pods-tinder_messages_screen */ = {
+			isa = PBXGroup;
+			children = (
+				AA58B9262D6419210D1C921C7FFADEAC /* Pods-tinder_messages_screen.modulemap */,
+				4FB30A89AA0F455D5A75CF91BFB232B0 /* Pods-tinder_messages_screen-acknowledgements.markdown */,
+				3B5DE97BBBD8D887E94FFBDF75E5EEB5 /* Pods-tinder_messages_screen-acknowledgements.plist */,
+				F6DDE7B350CB4DAC08FB13BCD904D965 /* Pods-tinder_messages_screen-dummy.m */,
+				10C9BC1C04F71439C0F225D9A44055ED /* Pods-tinder_messages_screen-frameworks.sh */,
+				2F6930599BC0084F024F6F2D2CAF9986 /* Pods-tinder_messages_screen-Info.plist */,
+				6DA0AC822D5B814A311ECEB515983741 /* Pods-tinder_messages_screen-umbrella.h */,
+				E11966E8CD97EF2267984386783E1758 /* Pods-tinder_messages_screen.debug.xcconfig */,
+				56FC93E39AB6ABDE402AF1B3C83A3B64 /* Pods-tinder_messages_screen.release.xcconfig */,
+			);
+			name = "Pods-tinder_messages_screen";
+			path = "Target Support Files/Pods-tinder_messages_screen";
+			sourceTree = "<group>";
+		};
+		DBC06DC86A3C61AF2353DEABD72E0C6D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA7CB04B2FEF846BD316A05A7F2838B1 /* Pods-tinder_messages_screen */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		96EBBDDFD898D16850DE4E945A80676E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48B0538DA3AAE7BFF3596A0C20422642 /* LBTATools-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1DB9BC810B5FFAF2F1277051FF86B17 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F34B7FE4241F8BB50EF08941E39ACFCD /* Pods-tinder_messages_screen-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7283B5B7B5091790604F692BC231AF42 /* Pods-tinder_messages_screen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F58472D0774491CFF755855E6D78A78 /* Build configuration list for PBXNativeTarget "Pods-tinder_messages_screen" */;
+			buildPhases = (
+				B1DB9BC810B5FFAF2F1277051FF86B17 /* Headers */,
+				854963169926D8EF0F92E9098597623D /* Sources */,
+				1C4D938A0BB9FBB4CA877EC49272B4B9 /* Frameworks */,
+				439550E3ADB3641A7675F88317D00D6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81ABD287DAD4C3BAF745C2D79E90A980 /* PBXTargetDependency */,
+			);
+			name = "Pods-tinder_messages_screen";
+			productName = "Pods-tinder_messages_screen";
+			productReference = 87CF81BDB9CD232008743FEE53AED6A9 /* Pods_tinder_messages_screen.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A09ABC9A94B3EF3B951A847D2E82EF7A /* LBTATools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41CF5D15BE57F19288523EA4948A7450 /* Build configuration list for PBXNativeTarget "LBTATools" */;
+			buildPhases = (
+				96EBBDDFD898D16850DE4E945A80676E /* Headers */,
+				70150D40BF43122964B427893865883A /* Sources */,
+				1A76E61B9E47DE128A2B502827394563 /* Frameworks */,
+				7C48D7DA7A203E5199014A8A5D50B7FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LBTATools;
+			productName = LBTATools;
+			productReference = F09F8498A04522BC0F89BDC4495B7DFE /* LBTATools.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 10DE02871026F5416216C6F64CCF3988 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A09ABC9A94B3EF3B951A847D2E82EF7A /* LBTATools */,
+				7283B5B7B5091790604F692BC231AF42 /* Pods-tinder_messages_screen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		439550E3ADB3641A7675F88317D00D6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C48D7DA7A203E5199014A8A5D50B7FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70150D40BF43122964B427893865883A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC46D5BE7419CFC9452D81E2ECC743E9 /* AnchoredConstraints.swift in Sources */,
+				27CBFC0984033D8899300FB0F2B08F08 /* AspectFitImageView.swift in Sources */,
+				1CA8E5F5D870151DE40E714F741D258C /* CircularImageView.swift in Sources */,
+				8677F644DC6B504C8AC25123737BE85C /* IndentedTextField.swift in Sources */,
+				E9DF14E44BB7B5BB2D653D2F69E0D564 /* LBTAListCell.swift in Sources */,
+				2F884B96509B1FEBDE860DA81AD38D34 /* LBTAListController.swift in Sources */,
+				7827EA55C34C14D9E6748350317A6B4E /* LBTAListHeaderController.swift in Sources */,
+				C2502C2D10B99044680CDD2501B3D45D /* LBTATools-dummy.m in Sources */,
+				D651285D4B0C8A7AF8383A65B3FDBFF1 /* UIButton.swift in Sources */,
+				D063DE0E2F39FC1074425D77228F12C8 /* UIColor+Helpers.swift in Sources */,
+				C927AB78F3EF2F2B12ADC45E8A00B32D /* UILabel.swift in Sources */,
+				DF658A51809FCBB36C8DEF8DD4A1FD12 /* UIStackView.swift in Sources */,
+				4377412B35F26DB973EB8F1748647B43 /* UITextField+Tools.swift in Sources */,
+				8B5E62A1D5B670FEDB3BCB6971D970D9 /* UIView+Layout.swift in Sources */,
+				75A2049ABD75E9FE31C793C67E20FCD9 /* UIView+Stacking.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		854963169926D8EF0F92E9098597623D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D59A472D07D4B570A5C58AFD3212FAA /* Pods-tinder_messages_screen-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81ABD287DAD4C3BAF745C2D79E90A980 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LBTATools;
+			target = A09ABC9A94B3EF3B951A847D2E82EF7A /* LBTATools */;
+			targetProxy = E8F6D48289F280AB48CFDDC58BBC17A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		511C47FDDE60447A56828FD3C25DA029 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0397AE268AA4AAD9E4B7E982C043BFD8 /* LBTATools.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LBTATools/LBTATools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LBTATools/LBTATools-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/LBTATools/LBTATools.modulemap";
+				PRODUCT_MODULE_NAME = LBTATools;
+				PRODUCT_NAME = LBTATools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		84A06F28E9E7D9EB0A9B476A8668FD60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A8FAECBCDF2ED84BCB601B46EF05FC69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0397AE268AA4AAD9E4B7E982C043BFD8 /* LBTATools.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LBTATools/LBTATools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LBTATools/LBTATools-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/LBTATools/LBTATools.modulemap";
+				PRODUCT_MODULE_NAME = LBTATools;
+				PRODUCT_NAME = LBTATools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ACC53452C458376F800120936459F39E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E11966E8CD97EF2267984386783E1758 /* Pods-tinder_messages_screen.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-tinder_messages_screen/Pods-tinder_messages_screen-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-tinder_messages_screen/Pods-tinder_messages_screen.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D0FE574C7B3479C6425BC136AA57D8C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E2AAFB751E53A7CBACDFC5E845CCF28D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56FC93E39AB6ABDE402AF1B3C83A3B64 /* Pods-tinder_messages_screen.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-tinder_messages_screen/Pods-tinder_messages_screen-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-tinder_messages_screen/Pods-tinder_messages_screen.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41CF5D15BE57F19288523EA4948A7450 /* Build configuration list for PBXNativeTarget "LBTATools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8FAECBCDF2ED84BCB601B46EF05FC69 /* Debug */,
+				511C47FDDE60447A56828FD3C25DA029 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0FE574C7B3479C6425BC136AA57D8C2 /* Debug */,
+				84A06F28E9E7D9EB0A9B476A8668FD60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F58472D0774491CFF755855E6D78A78 /* Build configuration list for PBXNativeTarget "Pods-tinder_messages_screen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACC53452C458376F800120936459F39E /* Debug */,
+				E2AAFB751E53A7CBACDFC5E845CCF28D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
